@@ -1559,6 +1559,12 @@ input, select, textarea {
 			padding: 0;
 			letter-spacing: 0;
 		}
+		button.icon.rectangle,
+		.button.icon.rectangle {
+			height: 3.125rem;
+			overflow: hidden;
+
+		}
 
 			input[type="submit"].icon.circle:before,
 			input[type="reset"].icon.circle:before,
